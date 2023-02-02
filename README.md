@@ -15,10 +15,12 @@ pip install hintedtext
 
 ```py
 import tkinter as tk
-from hintedtext import HintedText
+from hintedtext import HintedText, HintedEntry
 
 root = tk.Tk()
 text = HintedText(root, hint="Enter your text here")
 text.pack()
+entry = HintedEntry(root, hint="Enter your text here")
+entry.pack()
 root.mainloop()
 ```

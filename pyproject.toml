@@ -1,10 +1,13 @@
 [tool.poetry]
 name = "hintedtext"
-version = "0.5.0"
+version = "0.6.0"
 description = "Tkinter Text widget with an extra hint attribute."
 authors = ["Billy <billydevbusiness@gmail.com>"]
 readme = "README.md"
 license = "MIT"
+packages = [
+    { include = "hintedtext" }
+]
 repository = "https://github.com/billyeatcookies/hintedtext"
 
 [tool.poetry.dependencies]
